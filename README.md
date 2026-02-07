@@ -1,24 +1,50 @@
-# 🚀 C Programming & Data Structures
+# 👋 About Me
 
-![Language](https://img.shields.io/badge/language-C-blue.svg)
-![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-orange.svg)
+Welcome to my personal **C & Data Structures** repository!
 
-## 📖 About This Repository
+I am **Sharik Ahmed**, a BCA student specializing in AI/ML at Shobhit University. I am passionate about understanding the low-level logic of computers, memory management, and algorithmic thinking. 
 
-Welcome! This repository serves as a centralized collection of my codes written in the **C language**. It documents my learning journey from basic syntax to complex **Data Structures and Algorithms (DSA)**.
+This repository serves as a central hub for my C programming experiments, covering everything from basic syntax to complex Data Structures and Algorithms (DSA).
 
-Whether you are a fellow student looking for reference code or a developer brushing up on C, you'll find clean, documented implementations here.
+## 🚀 What's Inside?
 
-## 📂 Repository Structure
+This collection represents my journey in mastering C. You will find code covering the following key areas:
 
-The code is organized by topic to make navigation easy:
+### 🧠 Core C Logic
+* **Fundamentals:** Loops, Switch Cases, and Pattern Printing logic.
+* **Arrays & Strings:** Matrix operations and string manipulation without standard libraries.
+* **Pointers:** Deep dive into memory addresses, pointer arithmetic, and pass-by-reference.
 
-```text
-📦 C-Data-Structures
- ┣ 📂 Basics           # Loops, Functions, and Conditional Statements
- ┣ 📂 Arrays           # 1D/2D Arrays, Matrix Operations
- ┣ 📂 Pointers         # Memory management and pointer arithmetic
- ┣ 📂 Strings          # String manipulation and standard library functions
- ┣ 📂 Data_Structures  # Linked Lists, Stacks, Queues, Trees
- ┗ 📂 Algorithms       # Sorting (Bubble, Selection, etc.) and Searching
+### 🏗️ Data Structures (DS)
+* **Linear DS:** Implementations of Linked Lists (Singly/Doubly), Stacks, and Queues.
+* **Non-Linear DS:** Exploration of Trees and Binary Search Trees (BST).
+
+### ⚡ Algorithms
+* **Sorting:** Bubble Sort, Selection Sort, Insertion Sort, and Quick Sort.
+* **Searching:** Efficiently finding data using Binary Search techniques.
+
+## 💻 Tech Stack & Tools
+
+* **Language:** C (Standard C99/C11)
+* **Compiler:** GCC (MinGW)
+* **Editor:** VS Code
+* **Focus:** Logic Building & System Efficiency
+
+## 📝 A Sneak Peek
+
+Here is a glimpse of the coding style you'll find here:
+
+```c
+// Example: A simple node structure for a Linked List
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+// Function to create a new node
+struct Node* createNode(int value) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = value;
+    newNode->next = NULL;
+    return newNode;
+}
