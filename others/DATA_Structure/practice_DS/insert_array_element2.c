@@ -20,7 +20,7 @@ int main(){
 
     n++;
 
-    printf("\nUpdated Array\n");
+    printf("\nUpdated Array:\n");
     for(i=0;i<n;i++){
         printf("element at index %d-> %d\n",i,arr[i]);
     }
