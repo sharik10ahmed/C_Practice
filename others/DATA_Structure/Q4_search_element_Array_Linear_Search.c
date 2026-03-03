@@ -14,7 +14,7 @@ int main(){
     for(i=0;i<n;i++){
         if(arr[i]==target){
             printf("%d found at index %d",arr[i],i);
-            found=1;
+            found=1; // explain this logic
             break;
         }
     }
