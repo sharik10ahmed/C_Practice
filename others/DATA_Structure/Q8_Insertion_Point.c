@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Insertion Sort Logic
+    // Insertion Sort Logic point 1 (Mentioned)
     for(i = 1; i < n; i++) {
         key = arr[i]; // The element to be inserted
         j = i - 1;
@@ -28,7 +28,7 @@ int main() {
         // Place the key in its correct position
         arr[j + 1] = key;
     }
-
+    // Section 2
     printf("\nSorted array:\n");
     for(i = 0; i < n; i++) {
         printf("%d,", arr[i]);
