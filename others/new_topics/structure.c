@@ -15,5 +15,7 @@ int main() {
 
     // All data is stored and accessible simultaneously
     printf("ID: %d, Name: %s, GPA: %.1f\n", s1.id, s1.name, s1.gpa);
+    printf("%d",s1.id);
+    
     return 0;
 }
