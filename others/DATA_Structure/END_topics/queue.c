@@ -34,7 +34,7 @@ void dequeue() {
     } else {
         printf("Dequeued element: %d\n", queue[front]);
         front++; // Move the front pointer forward to serve the next person
-        
+            
         // CRITICAL RESET RULE:
         // If front passes rear, it means we just removed the very last person.
         // We must reset the queue to its original empty state.
