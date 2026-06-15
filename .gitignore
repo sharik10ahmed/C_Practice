@@ -1,0 +1,10 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore Mac/Linux executables and object files
+*.out
+*.o
+*.obj
+
+# Ignore common IDE folders (optional but recommended)
+.vscode/
