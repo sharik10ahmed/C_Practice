@@ -1,45 +1,110 @@
-# 👋 About Me
+<div align="center">
 
-Welcome to my personal **C Programming** repository!
+# ⚙️ C Programming Practice
 
-I am **Sharik Ahmed**, a student specializing in AI/ML. I am passionate about understanding the low-level logic of computers, memory management, and efficient coding.
+**A comprehensive repository of my journey mastering the C programming language, focusing on low-level memory management, robust logic building, and system-level efficiency.**
 
-This repository serves as a central hub for my C programming experiments, covering everything from basic syntax to advanced pointers and logic building.
+[![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![GCC Compiler](https://img.shields.io/badge/GCC-%2300599C.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://gcc.gnu.org/)
+[![VS Code](https://img.shields.io/badge/VS%23Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com)
 
-## 🚀 What's Inside?
+</div>
 
-This collection represents my journey in mastering C. You will find code covering the following key areas:
+---
 
-### 🧠 Core Concepts
-* **Fundamentals:** Loops, Conditionals, and Control Flow logic.
-* **Functions & Recursion:** Breaking down problems into modular components.
-* **Arrays & Strings:** Handling data collections and text manipulation without standard libraries.
+## 👨‍💻 About The Author
 
-### ⚙️ System & Memory
-* **Pointers:** Deep dive into memory addresses and reference manipulation.
-* **Dynamic Memory:** Using `malloc` and `free` for efficient resource management.
-* **File Handling:** Reading, writing, and managing data files.
+Hi, I'm **Sharik Ahmed**, a student specializing in **Artificial Intelligence and Machine Learning (AI/ML)**. While my core focus is on advanced algorithms and AI, I have a deep passion for understanding the foundational workings of computers. This repository is a testament to my dedication to mastering **C programming**, exploring everything from raw memory management to algorithm optimization.
 
-## ✨ Highlights & Coding Standards
+## 🚀 Repository Highlights
 
-Instead of just solving problems, I focus on writing **production-quality code**. Here is what you can expect from the files in this repo:
+This repository contains hands-on implementations covering various aspects of C programming. Rather than just simple problem-solving, the focus is on writing **production-quality, memory-safe, and modular code**.
 
-* **Clean Syntax:** Code is written with proper indentation and readable naming conventions.
-* **Modular Approach:** Logic is separated into reusable functions rather than writing everything in `main()`.
-* **Memory Safety:** Ensuring proper memory allocation and deallocation to avoid leaks.
-* **Documentation:** Complex logic is explained with inline comments.
+### 🧠 Core Concepts & Logic
+- **Control Flow:** Advanced loops, conditional structures, and complex state management.
+- **Functions & Modularity:** Writing reusable, isolated, and well-documented functions.
+- **Data Structures:** Implementing fundamental structures from scratch.
 
-## 💻 Tech Stack & Tools
+### ⚙️ System & Memory Architecture
+- **Pointers & Addressing:** Deep manipulation of memory addresses.
+- **Dynamic Memory Allocation:** Efficient utilization of `malloc`, `calloc`, `realloc`, and `free` to prevent memory leaks.
+- **File I/O:** Reading, writing, and parsing external data files.
 
-* **Language:** C (Standard C99/C11)
-* **Compiler:** GCC (MinGW)
-* **Editor:** VS Code
-* **Focus:** Logic Building & System Efficiency
+---
 
-## 📫 Connect
+## 📂 Directory Structure
 
-* **Author:** Sharik Ahmed
-* **Role:** Student & Developer
-* **Interests:** AI/ML, C, Python, SQL
+Here is a glimpse into the organization of my practice files:
 
-⭐ **Star this repository if you find the code useful!**
+```text
+📦 C_Practice
+ ┣ 📂 Add_TWO_Numbers   # Basic arithmetic and variable handling
+ ┣ 📂 REVISE            # Revision exercises and comprehensive reviews
+ ┣ 📂 CODE Blocks       # Projects built using Code::Blocks IDE
+ ┣ 📂 others            # Miscellaneous utility programs
+ ┣ 📜 factorial.c       # Recursive & iterative math operations
+ ┣ 📜 binary.c          # Binary conversions and bitwise logic
+ ┣ 📜 circle_Area.c     # Geometric calculations and float precision
+ ┣ 📜 Simple_Interest.c # Financial formula implementations
+ ┣ 📜 switch.c          # Complex switch-case menu implementations
+ ┗ 📜 ...and many more!
+```
+
+---
+
+## 🛠️ Getting Started
+
+To explore or run the code in this repository locally, follow these steps:
+
+### Prerequisites
+
+Ensure you have a C compiler installed, such as **GCC** (via MinGW for Windows) or **Clang**.
+
+### Compilation & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sharik10ahmed/C_Practice.git
+   cd C_Practice
+   ```
+
+2. **Compile a specific file:**
+   ```bash
+   gcc factorial.c -o factorial
+   ```
+
+3. **Run the compiled executable:**
+   ```bash
+   # On Windows:
+   .\factorial.exe
+
+   # On Linux/macOS:
+   ./factorial
+   ```
+
+---
+
+## 💎 Coding Standards
+
+I strictly adhere to the following principles in every program:
+
+- **Clean Syntax:** Proper indentation, clear variable naming, and readability.
+- **Memory Safety:** Every allocated byte is freed. No exceptions.
+- **Modularity:** Main functions are kept minimal; heavy lifting is delegated to dedicated functions.
+- **Inline Documentation:** Complex algorithmic blocks are thoroughly commented.
+
+---
+
+## 📫 Connect & Collaborate
+
+I am always open to discussing technology, AI/ML, and system programming.
+
+- **Developer:** Sharik Ahmed
+- **Interests:** AI/ML, C, Python, SQL, Low-level Systems
+
+<div align="center">
+  
+**If you find these implementations helpful, please consider giving this repository a ⭐!**
+
+</div>
